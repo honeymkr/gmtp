@@ -33,6 +33,10 @@ config.hosts << "97cd24219e2f4feabe14dd0dc38bc79d.vfs.cloud9.us-east-1.amazonaws
     config.cache_store = :null_store
   end
 
+
+  #devise configs
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+ 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
