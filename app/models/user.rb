@@ -9,7 +9,7 @@ class User < ApplicationRecord
 
 
   def set_account
-    self.buld_account
+    self.build_account
   end
 
 end
