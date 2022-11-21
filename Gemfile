@@ -34,6 +34,8 @@ gem "devise"
 
 gem "acts_as_tenant"
 
+gem "foreman"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
